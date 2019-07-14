@@ -1,5 +1,6 @@
 package dz.salimi.salim.andelachallenge1
 
+import android.annotation.SuppressLint
 import android.net.http.SslError
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -13,10 +14,12 @@ class AboutActivity : AppCompatActivity() {
 
     private val url = "https://andela.com/alc/"
 
+    @SuppressLint("SetJavaScriptEnabled")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_about)
-
+    
+        webview.settings.javaScriptEnabled = true
         webview.webViewClient = WebViewController()
         webview.loadUrl(url)
 
