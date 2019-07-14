@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ALC 4 Phase 1</string>
+    <string name="my_name">SALIMI Salim</string>
+    <string name="track">Track:</string>
+    <string name="phone_number">Phone Number:</string>
+    <string name="slack_username">Slack Username:</string>
+    <string name="email">Email:</string>
+    <string name="country">Country:</string>
+    <string name="my_email">s_salim42@hotmail.fr</string>
+    <string name="my_phone">+213557029744</string>
+    <string name="algeria">Algeria</string>
+    <string name="android">Android</string>
+    <string name="image_description">My picture</string>
+    <string name="my_slack">"@Salimi Salim"</string>
+    <string name="welcome">Welcome to ALC 4.0</string>
+    <string name="my_profile">My Profile</string>
+    <string name="about_alc">About ALC</string>
+</resources>
